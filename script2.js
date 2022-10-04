@@ -1,10 +1,13 @@
-var myVar = 782;
-let testVar = "Hello World!";
+var value = 111;
+let test = "Hello World!";
 
 let heading = document.getElementsByTagName('h1');
 console.log(heading);
 
-let para = document.getElementById('paragraph-1');
+let para1 = document.getElementById('para-1');
+console.log('Paragraph:', para);
+
+let para2 = document.getElementById('para-1').innertext;
 console.log('Paragraph:', para);
 
 let div = document.getElementsByClassName('container');
